@@ -20,7 +20,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="smartming&#39;s blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://smartming.cc/index.html">
 <meta property="og:site_name" content="smartming&#39;s blog">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
@@ -107,6 +107,8 @@
           <h1 class="header-author"><a href="/">机智的小明</a></h1>
         </hgroup>
 
+        
+        <p class="header-subtitle">迈入新世界，为了成为独当一面的攻城狮</p>
         
 
         
@@ -231,6 +233,8 @@
             <hgroup>
               <h1 class="header-author"><a href="/" title="回到主页">机智的小明</a></h1>
             </hgroup>
+            
+            <p class="header-subtitle">迈入新世界，为了成为独当一面的攻城狮</p>
             
             <nav class="header-menu">
                 <ul>
@@ -415,6 +419,23 @@
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>

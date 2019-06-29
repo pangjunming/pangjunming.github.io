@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>smartming&#39;s blog</title>
   
-  
+  <subtitle>迈入新世界，为了成为独当一面的攻城狮</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://smartming.cc/"/>
   <updated>2019-06-28T03:15:49.015Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://smartming.cc/</id>
   
   <author>
     <name>机智的小明</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/06/28/hello-world/"/>
-    <id>http://yoursite.com/2019/06/28/hello-world/</id>
+    <link href="http://smartming.cc/2019/06/28/hello-world/"/>
+    <id>http://smartming.cc/2019/06/28/hello-world/</id>
     <published>2019-06-28T03:15:49.011Z</published>
     <updated>2019-06-28T03:15:49.015Z</updated>
     
