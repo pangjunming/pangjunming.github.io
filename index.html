@@ -188,7 +188,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/md/">md</a></li></ul>
                     </div>
                 </section>
                 
@@ -266,6 +266,69 @@
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-python基础总结" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/07/01/python基础总结/" class="article-date">
+      <time datetime="2019-07-01T13:57:06.000Z" itemprop="datePublished">2019-07-01</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/01/python基础总结/">python基础总结</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="Typora快捷键"><a href="#Typora快捷键" class="headerlink" title="Typora快捷键"></a>Typora快捷键</h1><blockquote>
+<p>无序列表：输入-之后输入空格</p>
+<h3 id="有序列表：输入数字-“-”之后输入空格"><a href="#有序列表：输入数字-“-”之后输入空格" class="headerlink" title="有序列表：输入数字+“.”之后输入空格"></a>有序列表：输入数字+“.”之后输入空格</h3><p>​    任务列表：-[空格]空格 文字<br> 标题：ctrl+数字<br> 表格：ctrl+t<br> 生成目录：[TOC]按回车<br> 选中一整行：ctrl+l<br> 选中单词：ctrl+d<br> 选中相同格式的文字：ctrl+e<br> 跳转到文章开头：ctrl+home<br> 跳转到文章结尾：ctrl+end<br> 搜索：ctrl+f<br> 替换：ctrl+h<br> 引用：输入&gt;之后输入空格<br> 代码块：ctrl+alt+f<br> 加粗：ctrl+b<br> 倾斜：ctrl+i<br> 下划线：ctrl+u<br> 删除线：alt+shift+5<br> 插入图片：直接拖动到指定位置即可或者ctrl+shift+i<br> 插入链接：ctrl+k</p>
+</blockquote>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/md/">md</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -425,11 +488,11 @@
         var titleTime;
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
-                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                document.title = "(つェ⊂) " + originTitle;
                 clearTimeout(titleTime);
             }
             else {
-                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                document.title = "(*´∇｀*) " + originTitle;
                 titleTime = setTimeout(function() {
                     document.title = originTitle;
                 }, 2000);
